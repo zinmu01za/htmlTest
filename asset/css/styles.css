@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+
+.box{
+    background-color: azure; 
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.inbox{
+    background-color: rgb(226, 165, 165);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    
+}
+
+.bbox{
+    background-color: aliceblue;
+    height: 500px;
+    margin-top: 4vh;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+    font-size: 18rem;
+    background-image: url(https://hihostels.ca/upload/images/backgrounds/_1200x630_crop_center-center_82_none/About-Header.jpg?mtime=1554488242);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}
+.text1{
+    color: rgb(5, 21, 252);
+    text-decoration: none;
+    
+}
+
+.bx2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bbox2{
+    background-color: azure;
+    border-radius: 10px;
+    height: 500px;
+    width: 50%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+@media only screen and (max-width: 576px) {
+    .text{
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 992px) {
+    .text{
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    .text{
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .text{
+        font-size: 10rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .text{
+        font-size: 12rem;
+    }
+}
