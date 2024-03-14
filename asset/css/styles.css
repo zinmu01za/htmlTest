@@ -1,3 +1,5 @@
+
+
 body{
     background-color: black;
 }
@@ -155,6 +157,87 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+.bx3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.bbox3{
+    height:400px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+
+#bcat{
+    height: 400px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+.bgm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.bgm-t{
+    width: 50%;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.in{
+    text-align: center;
+    width: 20%;
+    background-color: aquamarine;
+    height: 380px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.in2{
+       width: 80%;
+       background-color: aquamarine;
+       height: 380px;
+       margin-left: 10px;
+       margin-top: 10px;
+       margin-right: 10px;
+       border-radius: 10px;
+   }
+
+   .ini{
+        height: 50px;
+        background-color: black;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+       border-radius: 10px;
+   }
+
+   .ini2{
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+   border-radius: 10px;
+}
+
+.inii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 576px) {
