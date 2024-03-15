@@ -6,10 +6,11 @@ body{
 
 .box{
     background-color: azure; 
-    height: 80px;
+    height: 100px;
     justify-content: center;
     display: flex;
     align-items: center;
+    padding-top: 60px;
 }
 
 .inbox{
@@ -62,14 +63,13 @@ body{
 }
 
 .bbox2{
-    background-color: azure;
+    background-color: rgb(233, 241, 241);
     border-radius: 10px;
     height: 500px;
     width: 50%;
     margin-top: 2vh;
     margin-bottom: 2vh;
   
-    
 }
 
 .bbbox{
@@ -77,22 +77,22 @@ body{
     align-items: center;
     justify-content: space-around;
     padding-top: 70px;
+   
 }
 
-.card{
+.card1{
     width: 200px;
     height: 300px;
     background-color: rgb(88, 86, 86);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 10px;
-    border-color: rgb(19, 18, 18);
-    border-width: 1px;
+    border: 2px solid rgb(155, 151, 158);
+   
 }
 
 .nav1{
     background-color: azure;
+    position: fixed;
+    width: 100%;
 }
 
 .dropdown-menu {
@@ -112,51 +112,46 @@ body{
 }
 
 .imgcard{
-    height: 80%;
-    width:  90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    margin-top: 10px;
-}
-
-.imgcat{
     height: 100%;
     width: 100%;
-    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .imgcard2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 80%;
-    background-size: cover;
-    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .imgcard3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.imgcat{
     height: 80%;
-    background-size: cover;
-    margin-top: 10px;
+    width: 90%;
+    border-radius: 18px;
+    padding-top: 8px;
+   
 }
 
 .imgcat2{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    width: 90%;
+    height: 80%;
+    border-radius: 18px;
+    padding-top: 8px;
 }
 
 .imgcat3{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    width: 90%;
+    height: 80%;
+    border-radius: 18px;
+    padding-top: 8px;
 }
 
 .bx3{
